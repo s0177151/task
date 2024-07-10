@@ -25,8 +25,8 @@
         <div class="message message_info"><?php if(isset($messages['info'])) echo $messages['info']; ?></div>
         <div class="message message_error"><?php if(isset($messages['error'])) echo $messages['error']; ?></div>
         <div>
-            <input class="w100 <?php echo ($errors['fullName'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['fullName']; ?>" type="text" name="fullName" placeholder="ФИО">
-            <div class="errpodinp"><?php echo $messages['fullName']?></div>
+            <input class="w100 <?php echo ($errors['fio'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['fio']; ?>" type="text" name="fio" placeholder="ФИО">
+            <div class="errpodinp"><?php echo $messages['fio']?></div>
         </div>
         <div>
             <input class="w100 <?php echo ($errors['phone'] != NULL) ? 'borred' : ''; ?>" value="<?php echo $values['phone']; ?>" type="tel" name="phone" placeholder="Телефон">

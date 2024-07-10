@@ -72,7 +72,7 @@
         while($row = $dbFD->fetch(PDO::FETCH_ASSOC)){
           echo '<tr data-id='.checkInput($row['id']).'>
                   <td>'.checkInput($row['id']).'</td>
-                  <td>'.checkInput($row['fullName']).'</td>
+                  <td>'.checkInput($row['fio']).'</td>
                   <td>'.checkInput($row['phone']).'</td>
                   <td>'.checkInput($row['email']).'</td>
                   <td>'.date("d.m.Y", checkInput($row['birthday'])).'</td>
